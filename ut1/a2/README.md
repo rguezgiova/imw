@@ -27,6 +27,6 @@ Finalmente después de esto, recargamos el servicio **nginx** ya que no hace fal
 
 ## 3. Resultado final
 
-Como resultado al acceder a la página web **http://alu4240.me/shared/** nos saldrá el listado de ficheros creado al principio
+Como resultado al acceder a la página web **http://alu4240.me/shared/** nos saldrá el listado de ficheros creado al principio.
 
 ![Resultado final página web](img/4.png)
