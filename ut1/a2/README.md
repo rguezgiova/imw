@@ -13,7 +13,7 @@ y dentro de él creamos el directorio **shared**, después de esto, haremos los 
 
 ## 2. Activación de la ruta y recarga del servicio
 
-Luego nos a la ruta `/etc/nginx/sites-available/` y añadimos el directorio que acabamos de crear al fichero `alu4240.me`.
+Luego nos dirigiremos a la ruta `/etc/nginx/sites-available/` y añadimos el directorio que acabamos de crear al fichero `alu4240.me`.
 
 ![Ruta archivo alu4240.me](img/5.png)
 
