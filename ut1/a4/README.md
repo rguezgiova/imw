@@ -62,6 +62,10 @@ Vamos a los ficheros de configuración personalizados en `/etc/supervisor/conf.d
 
 ![Creacion fichero supervisor](img/13.png)
 
+Como resultado veremos la página final.
+
+![Comprobación final](img/18.png)
+
 ## Comprobaciones
 Ahora comprobaremos lo que hace los siguientes comandos:
 
