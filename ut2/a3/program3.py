@@ -1,17 +1,17 @@
 import sys
 
-a = int(sys.argv[1])
-b = int(sys.argv[2])
+vara = int(sys.argv[1])
+varb = int(sys.argv[2])
 
-if a < 0 or b < 0:
+if vara < 0 or varb < 0:
     sys.exit('Escribe dos números positivos')
 else:
-    if a < b:
-        c = a
+    if vara < varb:
+        varc = vara
     else:
-        c = b
-    for i in range(c, 0, -1):
-        if a % i == 0:
-            if b % i == 0:
+        varc = varb
+    for i in range(varc, 0, -1):
+        if vara % i == 0:
+            if varb % i == 0:
                 print (i)
                 break

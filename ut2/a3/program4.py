@@ -7,7 +7,7 @@ if num < 0:
     sys.exit('Escribe un número positivo')
 else:
     for i in range(1, num + 1):
-        y = 1
+        result = 1
         for j in range (i, 0, -1):
-            y *= j
-        print (i, '! =', y)    
+            result *= j
+        print (i, '! =', result)
