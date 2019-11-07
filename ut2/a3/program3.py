@@ -3,7 +3,7 @@ import sys
 vara = int(sys.argv[1])
 varb = int(sys.argv[2])
 
-if vara < 0 or varb < 0:
+if vara <= 0 or varb <= 0:
     sys.exit('Escribe dos números positivos')
 else:
     if vara < varb:
