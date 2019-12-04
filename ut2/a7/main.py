@@ -71,7 +71,6 @@ if __name__ == '__main__':
     mv1.reboot()
     print(mv1)
 
-
     mv2 = VirtualMachine('Rohan', 6, 1.9, 250, 'Debian')
     print(mv2)
     mv2.start()
@@ -82,7 +81,6 @@ if __name__ == '__main__':
     print(mv2)
     mv2.reboot()
     print(mv2)
-
 
     mv3 = VirtualMachine('Rivendel', 16, 3, 1000, 'OpenSuse')
     print(mv3)
