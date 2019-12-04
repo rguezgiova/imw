@@ -68,6 +68,9 @@ if __name__ == '__main__':
     mv1.run(4, 4, 0.9, 100)
     mv1.run(7, 0.4, 1.1, 250)
     print(mv1)
+    mv1.reboot()
+    print(mv1)
+
 
     mv2 = VirtualMachine('Rohan', 6, 1.9, 250, 'Debian')
     print(mv2)
@@ -77,6 +80,9 @@ if __name__ == '__main__':
     mv2.run(5, 2.1, 0.2, 75)
     mv2.run(8, 2.5, 0.4, 30)
     print(mv2)
+    mv2.reboot()
+    print(mv2)
+
 
     mv3 = VirtualMachine('Rivendel', 16, 3, 1000, 'OpenSuse')
     print(mv3)
@@ -85,4 +91,6 @@ if __name__ == '__main__':
     mv3.run(3, 2, 1, 25)
     mv3.run(6, 0.3, 0.5, 12)
     mv3.run(9, 1.4, 0.8, 65)
+    print(mv3)
+    mv3.reboot()
     print(mv3)
