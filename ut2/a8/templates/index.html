@@ -19,9 +19,9 @@
        <td width="240" height="30">{{vmachine.get_status()}}</td>
 
 
-       <td width="50" height="30"><a href="/change_status/0"><font color="cyan">Stop</font></a> </td>
-       <td width="50" height="30"><a href="/change_status/1"><font color="green">Start</font></a> </td>
-       <td><a href="/change_status/2"><font color="pink">Suspend</font></a> </td>
+       <td width="50" height="30"><a href="/change_status/0"><font color=" #ec0000 ">Stop</font></a> </td>
+       <td width="50" height="30"><a href="/change_status/1"><font color=" #46c429">Start</font></a> </td>
+       <td><a href="/change_status/2"><font color=" #ff13bf ">Suspend</font></a> </td>
    </tr>
    </table>
    <br>
@@ -38,7 +38,7 @@
             <td><center>{{vmachine.ram_usage()}} %</center></td>
         </tr>
 
-         <tr>
+         <tr style="background-color:  #f7d0ec ">
              <td height="40">CPU</td>
              <td><center>{{vmachine.cpu}} GHZ</center></td>
              <td><center>{{vmachine.cpu_usage()}} %</center></td>
