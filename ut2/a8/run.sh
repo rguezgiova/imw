@@ -1,4 +1,5 @@
 #!/bin/bash
 
-source /home/alu4240/.virtualenvs/virtual_machine/bin/activate
-uwsgi --ini /home/alu4240/webapps/virtual_machine/uwsgi.ini
+cd "$(dirname "$0")"
+PYTHON_VENV=$(pipenv --venv)
+uwsgi --socket :8020 --home $PYTHON_VENV -w main:app
