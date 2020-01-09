@@ -1,0 +1,13 @@
+server {
+	server_name vm.alu4240.me;
+	root /home/alu4240/webapps/vmweb;
+
+	location / {
+		uwsgi_pass 127.0.0.1:8020;
+		include uwsgi_params;
+	}
+
+	location /templates {
+		root /home/alu4240/webapps/vmweb;
+	}
+}

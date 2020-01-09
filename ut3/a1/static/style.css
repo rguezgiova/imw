@@ -1,0 +1,17 @@
+body {width: 100%; margin: auto}
+
+div.container {width: 1300px; height: 600px; lightgray; padding-left: 50px; padding-top: 50px}
+
+div.azkaban {border: 2px outset grey; width: 500px; height: 400px; padding-left: 5px ; box-shadow: 0px 0px 3px 3px #BABABA; background-color:  #ffb1cd }
+
+    div.azkaban h1 {text-align: center; color: #000000 ; padding-top: 20px}
+    div.azkaban h2 {text-align: center; color: #ff005d }
+
+div.table_azkaban {padding-left: 32px; }
+
+    div.button {border: 2px outset grey; width: 150px;height: 40px;padding-top: 20px; background-color: #e2f9ff ;text-align: center;box-shadow: 0px 0px 3px 3px #BABABA;}
+    div.button:hover{background-color: #7fe4ff  ;width: 150px;height: 40px; }
+
+div.launch_table { padding-left: 150px;}
+div.launch_table td.first {background-color: #ffe2f1  }
+div.launch_table td.second {background-color: #e59bff }
