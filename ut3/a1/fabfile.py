@@ -4,6 +4,6 @@ env.hosts = ["159.89.14.205"]
 
 def deploy():
     local("git push")
-    with cd("~/webapps/virtual_machine"):
+    with cd("~/webapps/vmweb"):
         run("git pull")
-run("supervisorctl restart virtual_machine")
+run("supervisorctl restart vmweb")
