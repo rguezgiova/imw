@@ -4,14 +4,8 @@ from flask import redirect
 from flask import request
 from vm import VirtualMachine
 
-@app.route("/reset_supervisor")
-def reset_supervisor():
-    os.system('supervisorctl restart vmweb')
-    return redirect("/")
-
 app = Flask(__name__)
 vmachine = VirtualMachine(1)
-
 
 @app.route('/')
 def index():
