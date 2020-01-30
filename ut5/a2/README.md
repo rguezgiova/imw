@@ -78,7 +78,7 @@ La herramienta Essential Addons for Elementor trae más de 35 Widgets asociados,
 
 ## EWWW Image Optimizer
 ### Descripción
-EWWW Image Optimizer como su mismo nombre dice es un optimizador de imágenes, esta herramienta te hace ahorrar espacio, también puede hacer que mejore el posicionamiento de los motores de búsqueda.
+EWWW Image Optimizer como su mismo nombre indica es un optimizador de imágenes, esta herramienta te hace ahorrar espacio, también puede hacer que mejore el posicionamiento de los motores de búsqueda.
 
 ### Facilidad de instalación/activación
 Descargamos el plugin de la página web de WordPress
