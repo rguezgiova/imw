@@ -1,7 +1,7 @@
 # UT5-A2: Plugins de WordPress
 
 ## WP Statistics
-### Descipción
+### Descripción
 WP Statistics es una sencilla  herramienta que sirve, entre otras cosas para registrar los datos de los visitantes y los convierte en gráficos según su país de procedencia, ciudad, etc.
 
 ### Facilidad de instalación/activación
@@ -36,7 +36,7 @@ Esta herramienta no contiene Widgets asociados.
 - Necesita la versión de PHP 5.6 o superior.
 
 ## Essential Addons for Elementor
-### Descipción
+### Descripción
 Essential Addons for Elementor es una herramienta secundaria dentro del plugin Elementor que mejora la creación de páginas de dicho plugin.
 
 
@@ -77,7 +77,7 @@ La herramienta Essential Addons for Elementor trae más de 35 Widgets asociados,
 - Necesita tener instalado y activado el plugin Elementor.
 
 ## EWWW Image Optimizer
-### Descipción
+### Descripción
 EWWW Image Optimizer como su mismo nombre dice es un optimizador de imágenes, esta herramienta te hace ahorrar espacio, también puede hacer que mejore el posicionamiento de los motores de búsqueda.
 
 ### Facilidad de instalación/activación
