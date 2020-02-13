@@ -5,19 +5,9 @@
 </head>
 <body>
 <form action="index.php" method="post">
-    <table>
-        <tr>
-            <td>Introduzca el número de filas: </td>
-            <td> <input type="text" name="rows" /> </td>
-        </tr>
-        <tr>
-            <td>Introduzca el número de columnas: </td>
-            <td> <input type="text" name="columns" /> </td>
-        </tr>
-        <tr>
-            <td> <input type="submit" value="Enviar" /> </td>
-        </tr>
-    </table>
+  <p>Introduzca el número de filas: <input type="text" name="rows" /></p>
+  <p>Introduzca el número de columnas: <input type="text" name="columns" /></p>
+  <p> <input type="submit" value="Enviar" /> </p>
 </form>
 <table border="1">
     <?php
