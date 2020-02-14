@@ -3,6 +3,9 @@
 <head>
     <title>Tablas</title>
 </head>
+<style>
+  table td {width: 40px; height: 20px;}
+</style>
 <body>
 <form action="index.php" method="post">
   <p>Introduzca el número de filas: <input type="text" name="rows" /></p>
@@ -23,7 +26,7 @@
                     echo("<tr>");
                     while ($number_columns <= $columns) {
                         $number_columns++;
-                        echo ("<td> Michi </td>");
+                        echo ("<td></td>");
                     }
                     $number_columns = 1;
                     echo ("</tr>");
